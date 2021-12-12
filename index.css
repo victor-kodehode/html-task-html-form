@@ -1,0 +1,25 @@
+body {
+    background-image: url("abandoned.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+h1,fieldset,legend {
+    background: linear-gradient(0deg,rgb(99, 53, 0),rgb(235, 106, 0));
+    border: 2px solid white;
+    border-radius: 5px;
+}
+h1,form {
+    margin: auto;
+    width: 600px;
+}
+h1 {
+    text-align: center;
+}
+textarea {
+    resize: none;
+}
+legend {
+    padding: 10px;
+}
